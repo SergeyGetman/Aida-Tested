@@ -2,7 +2,7 @@
   "name": "aida-tested",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SergeyGetman/Aida-Tested",
+  "homepage": "https://SergeyGetman.github.io/Aida-Tested",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
