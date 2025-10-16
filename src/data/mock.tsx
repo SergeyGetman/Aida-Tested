@@ -25,7 +25,14 @@ import {
 import { BiColorFill } from 'react-icons/bi';
 import { IoMdContacts } from 'react-icons/io';
 import { RiContactsLine } from 'react-icons/ri';
-import { MdOutlineSupervisorAccount } from 'react-icons/md';
+import {
+  MdCalendarToday, MdChat, MdDashboard, MdHelpOutline,
+  MdHome,
+  MdInbox,
+  MdInventory,
+  MdOutlineSupervisorAccount, MdPerson,
+  MdReceiptLong, MdSettings
+} from 'react-icons/md';
 import { HiOutlineRefresh } from 'react-icons/hi';
 import { TiTick } from 'react-icons/ti';
 
@@ -435,7 +442,7 @@ export const links = [
     links: [
       {
         name: 'home',
-        icon: <FiShoppingBag />
+        icon: <MdHome />
       }
     ]
   },
@@ -446,11 +453,11 @@ export const links = [
 
       {
         name: 'dashboard',
-        icon: <IoMdContacts />
+        icon: <MdDashboard />
       },
       {
         name: 'inbox',
-        icon: <RiContactsLine />
+        icon: <MdInbox />
       }
     ]
   },
@@ -459,19 +466,19 @@ export const links = [
     links: [
       {
         name: 'products',
-        icon: <AiOutlineCalendar />
+        icon: <MdInventory />
       },
       {
         name: 'invoices',
-        icon: <BsKanban />
+        icon: <MdReceiptLong />
       },
       {
         name: 'customers',
-        icon: <FiEdit />
+        icon: <MdPerson />
       },
       {
         name: 'Chat-Room',
-        icon: <BiColorFill />
+        icon: <MdChat/>
       }
     ]
   },
@@ -480,15 +487,15 @@ export const links = [
     links: [
       {
         name: 'calendar',
-        icon: <AiOutlineStock />
+        icon: <MdCalendarToday />
       },
       {
         name: 'help-center',
-        icon: <AiOutlineAreaChart />
+        icon: <MdHelpOutline />
       },
       {
         name: 'settings',
-        icon: <AiOutlineCamera />
+        icon: <MdSettings />
       },
 
 
@@ -1373,7 +1380,7 @@ export const employeesData = [
     EmployeeID: 1,
     Name: 'Nancy Davolio',
     Title: 'Sales Representative',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2025',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage: avatar3
@@ -1382,7 +1389,7 @@ export const employeesData = [
     EmployeeID: 2,
     Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2025',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage: avatar3
@@ -1391,7 +1398,7 @@ export const employeesData = [
     EmployeeID: 3,
     Name: 'Iulia Albu',
     Title: 'HR',
-    HireDate: '01/02/2021',
+    HireDate: '01/02/2025',
     Country: 'USA',
     ReportsTo: 'Carson',
     EmployeeImage: avatar4

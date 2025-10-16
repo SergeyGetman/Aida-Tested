@@ -46,14 +46,19 @@ const Scheduler = () => {
         eventSettings={{ dataSource: scheduleData }}
         dragStart={onDragStart}
       >
+
+
+
         <ViewsDirective>
           {['Day', 'Week', 'WorkWeek', 'Month', 'Agenda'].map(item => (
             <ViewDirective key={item} option={item as View} />
           ))}
         </ViewsDirective>
+
         <Inject
           services={[Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop]}
         />
+
       </ScheduleComponent>
       <PropertyPane>
         <table style={{ width: '100%', background: 'white' }}>

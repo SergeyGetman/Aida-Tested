@@ -4,4 +4,7 @@ import { ContextProvider } from './context/ContextProvider';
 
 import './index.css';
 
-createRoot(document.getElementById('root') as HTMLElement).render(<ContextProvider><App /></ContextProvider>);
+createRoot(document.getElementById('root') as HTMLElement).render(
+ <ContextProvider>
+  <App />
+ </ContextProvider>);
